@@ -8,3 +8,4 @@ NomadCoders - Typescript로 블록체인 만들기 강의 실습 리포지토리
 |2022-10-17| ~2.3 |read only Type, Type을 활용한 Array, Tuple with Type, any 등의 기타 Type|  
 |2022-10-18| ~3.1 |Call Signatures, 오버로딩|
 |2022-10-19|~3.4|함수 다형성, Generics 소개 및 활용|
+|2022-10-20| - | Generics Practice 문제 solve 로 대체|
