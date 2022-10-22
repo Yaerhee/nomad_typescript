@@ -5,7 +5,14 @@ type ArrayGenerics = <T>(array: T[]) => T
 type ArrayWithNewItem = <T, M extends T>(arr: T[], item: M) => T[]
 
 const last: ArrayGenerics = arr => arr[arr.length-1]
-const pretend: ArrayWithNewItem = (arr, item) => {
+const prepend: ArrayWithNewItem = (arr, item) => {
     arr.unshift(item)
     return arr
 }
+
+// re-try
+type ArrayWithItem = <T>(arr: T[], item: T) => T[]
+const prepend2: ArrayWithItem = (arr, item) => [item, ...arr] // spread operator!!
+const arr = [1, 2, 3, 4]
+const newItems = prepend2(arr, 0)
+console.log(newItems)
