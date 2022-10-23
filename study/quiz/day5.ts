@@ -40,7 +40,7 @@ class Dict {
 
 class Word {
     constructor(
-        public term: string,
+        public readonly term: string, // 10/23 refactor - 읽기만 가능
         public def: string
     ) {}
 }
