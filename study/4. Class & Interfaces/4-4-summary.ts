@@ -20,7 +20,7 @@ interface PlayerB {
 
 const playerB: PlayerB = {
     name: 'yaerhee',
-    // lastName: 'lee',
+    lastName: 'lee', // <- 나중에 추가한 인터페이스 때문에 같이 넣어둔 부분임, 원래 없었음
 }
 
 // 모양은 같고, 두 목표는 동일함 (오브젝트의 모양 일러두기)

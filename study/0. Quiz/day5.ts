@@ -34,7 +34,7 @@ class Dict {
         return this.words;
     }
     count() {
-        return Object.values(this.words).length
+        return Object.keys(this.words).length
     }
 }
 
