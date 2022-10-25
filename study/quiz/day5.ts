@@ -43,6 +43,9 @@ class Word {
         public readonly term: string, // 10/23 refactor - 읽기만 가능
         public def: string
     ) {}
+    static test() { // static method (JS 로도 표시됨)
+        return 'test'
+    }
 }
 
 const dict = new Dict()
