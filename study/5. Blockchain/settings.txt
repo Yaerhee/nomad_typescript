@@ -1,0 +1,7 @@
+npm init -y //init new npm settings
+"main": "index.js" <- 수정 예정이므로 삭제
+..
+"scripts": "test" 삭제
+
+npm i -D typescript <- DevDependency typescript install
+touch tsconfig.json // create tsconfig
