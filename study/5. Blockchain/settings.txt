@@ -5,3 +5,14 @@ npm init -y //init new npm settings
 
 npm i -D typescript <- DevDependency typescript install
 touch tsconfig.json // create tsconfig
+
+
+[2022-10-30]
+npm i -D ts-node // execute main file(s) without building TS file to JS
+npm i nodemon <- 자동 커맨드 재실행!
+
+definitelyTyped -> JS => TS 호환성을 위해 각 library(module) 에 TS 타입 정의를 추가해 준 파일들이 들어있는 리포지토리
+npm i -D @types/node ? nodejs 에 대한 types 설치
+npm i -D @types/{packageName}
+
+=> JS 에 대한 npm install 이후 TS 호환 ? => npm i -D @types/{packageName}
