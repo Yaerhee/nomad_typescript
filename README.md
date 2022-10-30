@@ -15,3 +15,4 @@ NomadCoders - Typescript로 블록체인 만들기 강의 실습 리포지토리
  | 2022-10-25  | ~4.4  | Interface as type & implement with constructor |
 | 2022-10-26 | ~4.5 | Polymorphism - generic, interface, API form example |
 |2022-10-27| ~5.4 | TS init settings - Target, Lib, Declaration, JSDoc |
+ |2022-10-30| ~5.8 | Blockchain logic example (TS x crypto) + console test |
